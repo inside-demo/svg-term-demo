@@ -4,7 +4,7 @@
   "description": "svg term demo",
   "main": "index.js",
   "scripts": {
-    "build": "svg-term --cast=FElaz5NKKbm12GS9pOTyBEp4i --out myfirst.svg --window --height=5 --no-cursor --profile=Hyper.js"
+    "build": "svg-term --in=demo.json --out myfirst.svg --window --height=5 --no-cursor"
   },
   "repository": {
     "type": "git",
