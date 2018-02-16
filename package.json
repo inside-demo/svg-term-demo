@@ -1,0 +1,20 @@
+{
+  "name": "svg-term-demo",
+  "version": "0.0.0",
+  "description": "svg term demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "svg-term --cast=FElaz5NKKbm12GS9pOTyBEp4i --out myfirst.svg --window --height=5 --no-cursor --profile=Hyper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inside-demo/svg-term-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inside-demo/svg-term-demo/issues"
+  },
+  "homepage": "https://github.com/inside-demo/svg-term-demo#readme"
+}
