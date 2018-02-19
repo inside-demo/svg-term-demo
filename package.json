@@ -4,7 +4,7 @@
   "description": "svg term demo",
   "main": "index.js",
   "scripts": {
-    "build": "svg-term --in=demo.json --out myfirst.svg --window --height=5 --no-cursor"
+    "build": "svg-term --in=demo.json --out myfirst.svg --window --height=5 --no-cursor && svgo myfirst.svg"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/inside-demo/svg-term-demo/issues"
   },
-  "homepage": "https://github.com/inside-demo/svg-term-demo#readme"
+  "homepage": "https://github.com/inside-demo/svg-term-demo#readme",
+  "devDependencies": {
+    "svgo": "^1.0.4"
+  }
 }
