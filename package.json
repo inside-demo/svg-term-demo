@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/inside-demo/svg-term-demo#readme",
   "devDependencies": {
-    "svgo": "^1.0.4"
+    "svgo": "^3.0.2"
   }
 }
